@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.controls label, .controls input, .controls select, .controls button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.controls input, .controls select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 150px;
+}
+
+.controls button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.controls button:hover {
+    background: #45a049;
+}
+
+.status {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.memory-visualization {
+    text-align: left;
+    width: 100%;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
